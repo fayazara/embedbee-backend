@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "embeds",
+  "info": {
+    "name": "Embeds"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "code": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/embeds",
+      "handler": "embeds.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embeds/count",
+      "handler": "embeds.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embeds/:id",
+      "handler": "embeds.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/embeds",
+      "handler": "embeds.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/embeds/:id",
+      "handler": "embeds.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/embeds/:id",
+      "handler": "embeds.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
